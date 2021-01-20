@@ -10,7 +10,6 @@ defmodule Mix.Tasks.Xandra.Gen.Migration do
 
   def run(args) do
     Mix.Task.run("app.start")
-    XandraMigrator.run_xandra()
 
     case OptionParser.parse!(args, strict: []) do
       {_opts, [name]} ->

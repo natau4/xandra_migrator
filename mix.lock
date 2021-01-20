@@ -12,6 +12,7 @@
   "mix_audit": {:hex, :mix_audit, "0.1.4", "35c424173a574436a80ad7f63cf014a7d9ce727de8cd4e7b4138d90b11aec043", [:make, :mix], [{:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}, {:yaml_elixir, "~> 2.4.0", [hex: :yaml_elixir, repo: "hexpm", optional: false]}], "hexpm", "7a43fee661bcadbad31aa04a86d33a890421c174723814b8a3a7f0e7076936a1"},
   "telemetry": {:hex, :telemetry, "0.4.2", "2808c992455e08d6177322f14d3bdb6b625fbcfd233a73505870d8738a2f4599", [:rebar3], [], "hexpm", "2d1419bd9dda6a206d7b5852179511722e2b18812310d304620c7bd92a13fcef"},
   "xandra": {:hex, :xandra, "0.13.1", "f82866e6c47527f74f35dd3007b5311121852dd861a29ed1613e27ccfaba0102", [:mix], [{:db_connection, "~> 2.0", [hex: :db_connection, repo: "hexpm", optional: false]}, {:decimal, "~> 1.7", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "a2efdb8921e3b694bf3505e40c5ec9d353d8fa3755cec946be7c18b8236d7230"},
+  "xandra_launcher": {:git, "https://github.com/natau4/xandra_launcher.git", "1772360840b82bf4647cb42a1792640a5b552b40", []},
   "yamerl": {:hex, :yamerl, "0.8.0", "8214cfe16bbabe5d1d6c14a14aea11c784b9a21903dd6a7c74f8ce180adae5c7", [:rebar3], [], "hexpm", "010634477bf9c208a0767dcca89116c2442cf0b5e87f9c870f85cd1c3e0c2aab"},
   "yaml_elixir": {:hex, :yaml_elixir, "2.4.0", "2f444abc3c994c902851fde56b6a9cb82895c291c05a0490a289035c2e62ae71", [:mix], [{:yamerl, "~> 0.7", [hex: :yamerl, repo: "hexpm", optional: false]}], "hexpm", "4e25a6d5c873e393689c6f1062c5ec90f6cd1be2527b073178ae37eae4c78bee"},
 }

@@ -5,7 +5,6 @@ defmodule Mix.Tasks.Xandra.Create do
 
   def run(_) do
     Mix.Task.run("app.start")
-    XandraMigrator.run_xandra()
 
     create_keyspace()
     create_migrations_table()

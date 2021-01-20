@@ -5,7 +5,6 @@ defmodule Mix.Tasks.Xandra.Migrate do
 
   def run(_) do
     Mix.Task.run("app.start")
-    XandraMigrator.run_xandra()
 
     XandraMigrator.migrate()
   end

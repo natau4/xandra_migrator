@@ -5,7 +5,6 @@ defmodule Mix.Tasks.Xandra.Drop do
 
   def run(_) do
     Mix.Task.run("app.start")
-    XandraMigrator.run_xandra()
 
     drop_keyspace()
   end

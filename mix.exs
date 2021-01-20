@@ -29,7 +29,8 @@ defmodule XandraMigrator.MixProject do
       {:ecto, "~> 3.5.4"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:mix_audit, "~> 0.1", only: [:dev, :test], runtime: false},
-      {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false}
+      {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false},
+      {:xandra_launcher, github: "natau4/xandra_launcher"}
     ]
   end
 end

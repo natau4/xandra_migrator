@@ -4,10 +4,6 @@ defmodule XandraMigrator do
   alias XandraMigrator.SchemaMigrations
   alias XandraMigrator.XandraModels.SchemaMigration
 
-  def run_xandra() do
-    cassandra_params() |> Xandra.start_link()
-  end
-
   def parrent_app_name() do
     Mix.Project.config()[:app]
   end
